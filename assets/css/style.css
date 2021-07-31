@@ -1,9 +1,6 @@
 /* Import Google Fonts: Spectral (400, 800) and Fira Code (500) */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Spectral:wght@400;800&display=swap');
 
-/* font-family: 'Fira Code', monospace;
-font-family: 'Spectral', serif; */
-
 :root {
     font-size: 62.5%; /* root = 10px for easier rem math */
 }
@@ -63,4 +60,15 @@ p {
 
 #logo {
     font-size: 3rem;
+    color: hsl(0, 0, 13);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    display: flex;
 }
