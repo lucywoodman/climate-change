@@ -1,0 +1,15 @@
+/* Import Google Fonts: Spectral (400, 800) and Fira Code (500) */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Spectral:wght@400;800&display=swap');
+
+/* font-family: 'Fira Code', monospace;
+font-family: 'Spectral', serif; */
+
+h1 {
+    font-family: 'Spectral', serif;
+    font-weight: 800;
+}
+
+p {
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+}
