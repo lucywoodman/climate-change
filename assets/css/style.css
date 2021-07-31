@@ -4,7 +4,7 @@
 /* Brand colours
     primary colour
     color: hsl(220, 91%, 34%);
-    color: hsla(8, 62%, 167%, 0.2);
+    color: hsla(220, 91%, 34%, 0.3);
 
     secondary colour
     color: hsl(359, 100%, 76%);
@@ -79,8 +79,8 @@ a {
 
 a:hover,
 a:active {
-    color: hsl(359, 100%, 76%);
-    border-bottom: 1px solid hsl(359, 100%, 76%);
+    color: hsl(220, 91%, 34%);
+    border-bottom: 1px solid hsl(220, 91%, 34%);;
 }
 
 /* Header */
@@ -89,13 +89,12 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(hsla(8, 62%, 167%, 0.2), hsla(8, 62%, 167%, 0.2)),
+    background: linear-gradient(hsla(220, 91%, 34%, 0.1), hsla(220, 91%, 34%, 0.5)),
                 url('../images/home__hero.jpg') center / cover no-repeat;
 }
 
 #logo {
     font-size: 3rem;
-    text-decoration: none;
     margin: 1rem 2rem;
     text-align: center;
 }
@@ -114,23 +113,20 @@ header {
     color: hsl(0, 0%, 13%);
 }
 
-.nav__list-item-link:hover {
-    color: hsl(359, 100%, 76%);
-    border-bottom: 1px solid hsl(359, 100%, 76%);
-}
-
 .nav__list-item-link--active {
-    color: hsl(359, 100%, 76%);
-    border-bottom: 1px solid hsl(359, 100%, 76%);
+    color: hsl(220, 91%, 34%);
+    border-bottom: 1px solid hsl(220, 91%, 34%);
 }
 
 /* Hero */
 
 .hero {
     display: flex;
-    padding: 2rem;
+    padding: 4rem 1.6rem 0 1.6rem;
+    height: 35vh;
 }
 
 .hero__head {
     text-align: center;
+    color: hsl(100, 100%, 100%);
 }
