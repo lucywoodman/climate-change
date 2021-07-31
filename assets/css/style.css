@@ -130,3 +130,18 @@ header {
     text-align: center;
     color: hsl(100, 100%, 100%);
 }
+
+/* Main content */
+
+.main {
+    display: flex;
+    padding: 6rem 1.6rem;
+}
+
+.main__content--dropcap {
+    float: left;
+    font-size: 6.8rem;
+    line-height: 5.5rem;
+    padding: 0.4rem 0.5rem 0 0.3rem;
+    font-weight: 800;
+}
