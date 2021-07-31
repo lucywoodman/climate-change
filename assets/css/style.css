@@ -2,9 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Spectral:wght@400;800&display=swap');
 
 /* Brand colours
-    primary colour: hsl(220, 91, 34), rgb(8, 62, 167);
-    secondary colour: hsl(359, 100, 76);
-    text colour: hsl(0, 0, 13);
+    primary colour
+    color: hsl(220, 91%, 34%);
+    color: hsla(8, 62%, 167%, 0.2);
+
+    secondary colour
+    color: hsl(359, 100%, 76%);
+
+    text colour: 
+    color: hsl(0, 0%, 13%);
 */
 
 :root {
@@ -20,7 +26,7 @@
 body {
     font-family: 'Spectral', serif;
     font-weight: 400;
-    color: hsl(0, 0, 13);
+    color: hsl(0, 0%, 13%);
     font-size: 2rem;
     line-height: 1.5;
 }
@@ -67,14 +73,14 @@ p {
 }
 
 a {
-    color: hsl(0, 0, 13);
+    color: hsl(0, 0%, 13%);
     text-decoration: none;
 }
 
 a:hover,
 a:active {
-    color: hsl(359, 100, 76);
-    border-bottom: 1px solid hsl(359, 100, 76);
+    color: hsl(359, 100%, 76%);
+    border-bottom: 1px solid hsl(359, 100%, 76%);
 }
 
 /* Header */
@@ -83,13 +89,12 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(rgba(8, 62, 167, 0.2), rgba(8, 62, 167, 0.2)),
+    background: linear-gradient(hsla(8, 62%, 167%, 0.2), hsla(8, 62%, 167%, 0.2)),
                 url('../images/home__hero.jpg') center / cover no-repeat;
 }
 
 #logo {
     font-size: 3rem;
-    color: hsl(0, 0, 13);
     text-decoration: none;
     margin: 1rem 2rem;
     text-align: center;
@@ -106,17 +111,17 @@ header {
 }
 
 .nav__list-item-link {
-    color: hsl(0, 0, 13);
+    color: hsl(0, 0%, 13%);
 }
 
 .nav__list-item-link:hover {
-    color: hsl(359, 100, 76);
-    border-bottom: 1px solid hsl(359, 100, 76);
+    color: hsl(359, 100%, 76%);
+    border-bottom: 1px solid hsl(359, 100%, 76%);
 }
 
 .nav__list-item-link--active {
-    color: hsl(359, 100, 76);
-    border-bottom: 1px solid hsl(359, 100, 76);
+    color: hsl(359, 100%, 76%);
+    border-bottom: 1px solid hsl(359, 100%, 76%);
 }
 
 /* Hero */
