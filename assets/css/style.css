@@ -4,12 +4,63 @@
 /* font-family: 'Fira Code', monospace;
 font-family: 'Spectral', serif; */
 
-h1 {
+:root {
+    font-size: 62.5%; /* root = 10px for easier rem math */
+}
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Spectral', serif;
+    font-weight: 400;
+    color: hsl(0, 0, 13);
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/* Typography */
+
+h1, 
+h2, 
+h3 {
     font-family: 'Spectral', serif;
     font-weight: 800;
 }
 
+h1,
+h2,
+h3,
 p {
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-size: 5.2rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    letter-spacing: -1px;
+}
+
+.byline {
     font-family: 'Fira Code', monospace;
     font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 0;
+}
+
+#logo {
+    font-size: 3rem;
 }
