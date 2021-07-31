@@ -211,8 +211,17 @@ header {
     border-radius: 3px;
     border: 1px solid hsl(0, 0%, 13%);
     filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
+    transition: all .3s ease;
+    cursor: pointer;
 }
 
 .callout__content-button i {
     padding-left: .5rem;
+}
+
+.callout__content-button:hover,
+.callout__content-button:active {
+    background: hsl(100, 100%, 100%);
+    color: hsl(220, 91%, 34%);
+    filter: drop-shadow(0 0 0 hsl(0, 0%, 13%));
 }
