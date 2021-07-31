@@ -133,7 +133,7 @@ header {
     border-bottom: 1px solid hsl(220, 91%, 34%);
 }
 
-/* Hero */
+/* Hero section */
 
 .hero {
     display: flex;
@@ -143,7 +143,7 @@ header {
     align-items: center;
 }
 
-/* Main content */
+/* Main content section */
 
 .main {
     padding: 6rem 2rem;
@@ -175,7 +175,7 @@ header {
     width: 100%;
 }
 
-/* Callout */
+/* Callout section */
 
 .callout {
     display: flex;
@@ -224,4 +224,44 @@ header {
     background: hsl(100, 100%, 100%);
     color: hsl(220, 91%, 34%);
     filter: drop-shadow(0 0 0 hsl(0, 0%, 13%));
+}
+
+/* Links section */
+
+.links {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 2rem 2rem 2rem;
+}
+
+.links__col {
+    margin-bottom: 4rem;
+}
+
+.links__list {
+    list-style-type: none;
+}
+
+/* Credits section */
+
+.credits {
+    background: hsl(220, 91%, 34%);
+    color: hsl(100, 100%, 100%);
+    padding: 4rem 2rem;
+}
+
+/* Footer */
+
+footer {
+    padding: 4rem 2rem 3rem 2rem;
+    background: hsl(220, 91%, 34%);
+    color: hsl(100, 100%, 100%);
+    border-top: 1px solid hsl(100, 100%, 100%);
+}
+
+footer i {
+    zoom: 1.5;
+    position: relative;
+    top: 2px;
+    right: 1px;
 }
