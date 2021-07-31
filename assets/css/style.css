@@ -146,5 +146,22 @@ header {
 
 .main {
     display: flex;
-    padding: 6rem 1.6rem;
+    flex-direction: column;
+    padding: 6rem 2rem;
+}
+
+.main__content-image {
+    background: hsl(359, 100%, 76%);
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 13%);
+    filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
+    margin-bottom: 4rem;
+}
+
+.main__content-image img {
+    filter: grayscale(100%) contrast(150%);
+    opacity: 0.5;
+    width: 100%;
 }
