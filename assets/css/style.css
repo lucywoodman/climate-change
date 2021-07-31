@@ -65,7 +65,8 @@ p {
     letter-spacing: -1px;
 }
 
-.byline {
+.byline,
+button {
     font-family: 'Fira Code', monospace;
     font-weight: 500;
     font-size: 1.4rem;
@@ -191,4 +192,27 @@ header {
     filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
     max-width: 350px;
     padding: 4rem 2rem 6rem 2rem;
+}
+
+.callout__content-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;
+}
+
+.callout__content-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: hsl(220, 91%, 34%);
+    color: hsl(100, 100%, 100%);
+    padding: 1.5rem 2.5rem;
+    border-radius: 3px;
+    border: 1px solid hsl(0, 0%, 13%);
+    filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
+}
+
+.callout__content-button i {
+    padding-left: .5rem;
 }
