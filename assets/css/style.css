@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Spectral:wght@400;800&display=swap');
 
 /* Brand colours
-    primary colour: hsl(220, 91, 34);
+    primary colour: hsl(220, 91, 34), rgb(8, 62, 167);
     secondary colour: hsl(359, 100, 76);
     text colour: hsl(0, 0, 13);
 */
@@ -27,11 +27,13 @@ body {
 
 /* Typography */
 
-h1, 
-h2, 
+h1,
+.h1,
+h2,
 h3 {
     font-family: 'Spectral', serif;
     font-weight: 800;
+    line-height: 1.1;
 }
 
 h1,
@@ -41,7 +43,7 @@ p {
     margin-bottom: 3rem;
 }
 
-h1 {
+h1, .h1 {
     font-size: 5.2rem;
 }
 
@@ -81,6 +83,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: linear-gradient(rgba(8, 62, 167, 0.2), rgba(8, 62, 167, 0.2)),
+                url('../images/home__hero.jpg') center / cover no-repeat;
 }
 
 #logo {
@@ -113,4 +117,15 @@ header {
 .nav__list-item-link--active {
     color: hsl(359, 100, 76);
     border-bottom: 1px solid hsl(359, 100, 76);
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    padding: 2rem;
+}
+
+.hero__head {
+    text-align: center;
 }
