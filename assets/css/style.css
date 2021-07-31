@@ -1,6 +1,12 @@
 /* Import Google Fonts: Spectral (400, 800) and Fira Code (500) */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Spectral:wght@400;800&display=swap');
 
+/* Brand colours
+    primary colour: hsl(220, 91, 34);
+    secondary colour: hsl(359, 100, 76);
+    text colour: hsl(0, 0, 13);
+*/
+
 :root {
     font-size: 62.5%; /* root = 10px for easier rem math */
 }
@@ -58,17 +64,53 @@ p {
     letter-spacing: 0;
 }
 
-#logo {
-    font-size: 3rem;
+a {
     color: hsl(0, 0, 13);
+    text-decoration: none;
 }
 
-a {
-    text-decoration: none;
+a:hover,
+a:active {
+    color: hsl(359, 100, 76);
+    border-bottom: 1px solid hsl(359, 100, 76);
 }
 
 /* Header */
 
 header {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logo {
+    font-size: 3rem;
+    color: hsl(0, 0, 13);
+    text-decoration: none;
+    margin: 1rem 2rem;
+    text-align: center;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.nav__list-item {
+    list-style-type: none;
+}
+
+.nav__list-item-link {
+    color: hsl(0, 0, 13);
+}
+
+.nav__list-item-link:hover {
+    color: hsl(359, 100, 76);
+    border-bottom: 1px solid hsl(359, 100, 76);
+}
+
+.nav__list-item-link--active {
+    color: hsl(359, 100, 76);
+    border-bottom: 1px solid hsl(359, 100, 76);
 }
