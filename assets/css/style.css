@@ -244,6 +244,7 @@ header {
 .links__col img {
     width: 100%;
     max-width: 350px;
+    margin-top: 2em;
 }
 
 /* Credits section */
