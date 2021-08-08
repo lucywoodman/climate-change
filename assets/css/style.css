@@ -265,6 +265,10 @@ button:active {
 }
 
 @media (min-width: 768px) {
+    .main__content-image {
+        max-width: 350px;
+    }
+    
     .main__content {
         max-width: 100%;
         display: grid;
