@@ -35,7 +35,8 @@ body {
 }
 
 @media (min-width: 768px) {
-    header {
+    header,
+    .callout {
         max-width: 80%;
         margin: 0 auto;
     }
@@ -306,11 +307,12 @@ button:active {
 /* Callout section */
 
 .callout {
-    display: flex;
-    justify-content: left;
+    padding: 6rem 2rem;
+}
+
+.callout__background {
     background: linear-gradient(hsla(220, 91%, 34%, 0.1), hsla(220, 91%, 34%, 0.5)),
                 url('../images/home__callout.jpg') center / cover no-repeat;
-    padding: 6rem 2rem;
 }
 
 .callout__content {
