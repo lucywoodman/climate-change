@@ -88,6 +88,7 @@ button {
 
 .solo-icon {
     margin-top: 4rem;
+    zoom: 1.5;
 }
 
 .external-link-icon {
@@ -220,16 +221,17 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    padding: 3em 0;
-    border: 1px solid hsl(0, 0%, 13%);
-    background:hsl(359, 100%, 76%);
-    color:hsl(100, 100%, 100%);
+    padding-bottom: 6rem;
 }
 
 .cta__button {
-    color: hsl(0, 0%, 13%);
-    background:hsl(100, 100%, 100%);
+    color: hsl(100, 100%, 100%);
+    background: hsl(359, 100%, 76%);
+}
+
+.cta > .solo-icon {
+    margin-top: 0;
+    margin-bottom: 4rem;
 }
 
 /* Callout section */
