@@ -36,7 +36,10 @@ body {
 
 @media (min-width: 768px) {
     header,
-    .callout {
+    .callout,
+    .links,
+    .credits,
+    footer {
         max-width: 80%;
         margin: 0 auto;
     }
@@ -351,33 +354,27 @@ button:active {
     list-style-type: none;
 }
 
-.links img {
-    width: 100%;
-    max-width: 250px;
-}
-
-.links__climate-emergency-logo {
-    display: flex;
-    justify-content: center;
-}
-
 @media (min-width: 768px) {
     .links__content {
         flex-direction: row;
-        justify-content: space-around;
     }
 
     .links__col {
-        min-width: 40%;
+        min-width: 50%;
     }
 }
 
 /* Credits section */
 
-.credits {
+.credits__background {
     background: hsl(220, 91%, 34%);
     color: hsl(100, 100%, 100%);
+}
+
+.credits {
     padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .credits .links__list-item {
@@ -401,6 +398,24 @@ footer a:active {
     background-color:hsl(100, 100%, 100%);
     color:hsl(220, 91%, 34%);
     text-decoration: underline;
+}
+
+.credits img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
+    margin-top: 4rem;
+}
+
+@media (min-width: 768px) {
+    .credits {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .credits img {
+        margin-top: 1rem;
+    }
 }
 
 /* Footer */
