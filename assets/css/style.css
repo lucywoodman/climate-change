@@ -280,7 +280,23 @@ header {
 
 .links img {
     width: 100%;
-    max-width: 350px;
+    max-width: 250px;
+}
+
+.links__climate-emergency-logo {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .links__content {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .links__col {
+        min-width: 40%;
+    }
 }
 
 /* Credits section */
