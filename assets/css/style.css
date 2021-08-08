@@ -282,6 +282,18 @@ header {
     padding: 4rem 2rem;
 }
 
+.credits .links__list-item {
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 0;
+}
+
+.credits .links__list-item a {
+    color:hsl(100, 100%, 100%);
+    text-decoration: underline;
+}
+
 /* Footer */
 
 footer {
