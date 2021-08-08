@@ -254,7 +254,7 @@ header {
     border-radius: 5px;
     border: 1px solid hsl(0, 0%, 13%);
     filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
-    max-width: 350px;
+    max-width: 450px;
     padding: 4rem 3rem 6rem 3rem;
 }
 
