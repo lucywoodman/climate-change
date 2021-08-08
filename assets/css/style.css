@@ -105,12 +105,11 @@ header {
     justify-content: center;
     background: linear-gradient(hsla(220, 91%, 34%, 0.1), hsla(220, 91%, 34%, 0.5)),
                 url('../images/home__hero.jpg') center / cover no-repeat;
-    padding-top: 4rem;
 }
 
 #logo {
     font-size: 3rem;
-    margin: 1rem 2rem;
+    margin: 2rem 2rem;
     text-align: center;
 }
 
@@ -138,7 +137,7 @@ header {
 .hero {
     display: flex;
     flex-direction: column;
-    padding: 4rem 1.6rem 2rem 1.6rem;
+    padding: 4rem 2rem 2rem 2rem;
     color: hsl(100, 100%, 100%);
     align-items: center;
 }
