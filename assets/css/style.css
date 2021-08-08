@@ -304,11 +304,6 @@ button:active {
     padding-bottom: 6rem;
 }
 
-.cta__button {
-    color: hsl(100, 100%, 100%);
-    background: hsl(359, 100%, 76%);
-}
-
 /* Callout section */
 
 .callout {
