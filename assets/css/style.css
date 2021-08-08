@@ -420,11 +420,14 @@ footer a:active {
 
 /* Footer */
 
-footer {
-    padding: 3rem 2rem 3rem 2rem;
+.footer__background {
     background: hsl(220, 91%, 34%);
     color: hsl(100, 100%, 100%);
     line-height: 1.7;
+}
+
+footer {
+    padding: 3rem 2rem 3rem 2rem;
 }
 
 footer i {
