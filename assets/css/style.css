@@ -65,25 +65,6 @@ p {
     letter-spacing: -1px;
 }
 
-.byline,
-button {
-    font-family: 'Fira Code', monospace;
-    font-weight: 500;
-    font-size: 1.4rem;
-    letter-spacing: 0;
-}
-
-a {
-    color: hsl(0, 0%, 13%);
-    text-decoration: none;
-}
-
-a:hover,
-a:active {
-    color: hsl(220, 91%, 34%);
-    border-bottom: 1px solid hsl(220, 91%, 34%);;
-}
-
 .dropcap {
     float: left;
     font-size: 6.8rem;
@@ -95,6 +76,53 @@ a:active {
 .bold {
     font-weight: 800;
     letter-spacing: 0;
+}
+
+.byline,
+button {
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 0;
+}
+
+.solo-icon {
+    margin-top: 3em;
+}
+
+a {
+    color: hsl(0, 0%, 13%);
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: hsl(220, 91%, 34%);
+}
+
+button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: hsl(220, 91%, 34%);
+    color: hsl(100, 100%, 100%);
+    padding: 1.5rem 2.5rem;
+    border-radius: 3px;
+    border: 1px solid hsl(0, 0%, 13%);
+    filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+button i {
+    padding-left: .5rem;
+}
+
+button:hover,
+button:active {
+    background: hsl(0, 0%, 13%);
+    color: hsl(100, 100%, 100%);
+    filter: drop-shadow(0 0 0 hsl(0, 0%, 13%));
 }
 
 /* Header */
@@ -129,6 +157,11 @@ header {
 
 .nav__list-item-link--active {
     color: hsl(220, 91%, 34%);
+    border-bottom: 1px solid hsl(220, 91%, 34%);
+}
+
+.nav__list a:hover,
+.nav__list a:active {
     border-bottom: 1px solid hsl(220, 91%, 34%);
 }
 
@@ -187,8 +220,7 @@ header {
     color:hsl(100, 100%, 100%);
 }
 
-.cta button {
-    margin-bottom: 3em;
+.cta__button {
     color: hsl(0, 0%, 13%);
     background:hsl(100, 100%, 100%);
 }
@@ -217,31 +249,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0.2rem;
-}
-
-.callout__content-button {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: hsl(220, 91%, 34%);
-    color: hsl(100, 100%, 100%);
-    padding: 1.5rem 2.5rem;
-    border-radius: 3px;
-    border: 1px solid hsl(0, 0%, 13%);
-    filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
-    transition: all .3s ease;
-    cursor: pointer;
-}
-
-.callout__content-button i {
-    padding-left: .5rem;
-}
-
-.callout__content-button:hover,
-.callout__content-button:active {
-    background: hsl(100, 100%, 100%);
-    color: hsl(220, 91%, 34%);
-    filter: drop-shadow(0 0 0 hsl(0, 0%, 13%));
 }
 
 /* Links section */
