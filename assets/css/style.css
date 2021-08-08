@@ -230,7 +230,7 @@ button:active {
 /* Main content section */
 
 .main {
-    padding: 6rem .5rem;
+    padding: 6rem .5rem 4rem;
 }
 
 .main__content {
@@ -307,11 +307,6 @@ button:active {
 .cta__button {
     color: hsl(100, 100%, 100%);
     background: hsl(359, 100%, 76%);
-}
-
-.cta > .solo-icon {
-    margin-top: 0;
-    margin-bottom: 4rem;
 }
 
 /* Callout section */
