@@ -262,9 +262,12 @@ header {
 /* Links section */
 
 .links {
+    padding: 6rem 2rem 2rem 2rem;
+}
+
+.links__content {
     display: flex;
     flex-direction: column;
-    padding: 6rem 2rem 2rem 2rem;
 }
 
 .links__col {
@@ -275,10 +278,9 @@ header {
     list-style-type: none;
 }
 
-.links__col img {
+.links img {
     width: 100%;
     max-width: 350px;
-    margin-top: 4rem;
 }
 
 /* Credits section */
