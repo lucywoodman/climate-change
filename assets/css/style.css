@@ -294,6 +294,7 @@ header {
     font-weight: 500;
     font-size: 1.4rem;
     letter-spacing: 0;
+    line-height: 1.7;
 }
 
 .credits .links__list-item a {
@@ -307,6 +308,7 @@ footer {
     padding: 4rem 2rem 3rem 2rem;
     background: hsl(220, 91%, 34%);
     color: hsl(100, 100%, 100%);
+    line-height: 1.7;
 }
 
 footer i {
