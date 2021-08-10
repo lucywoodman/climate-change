@@ -218,10 +218,12 @@ button:active {
     padding: 4rem 2rem 2rem 2rem;
     color: hsl(100, 100%, 100%);
     align-items: center;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
     .hero {
+        text-align: left;
         align-items: flex-start;
         padding: 10rem 2rem;
     }
