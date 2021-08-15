@@ -434,6 +434,10 @@ footer i {
 
 /* Timeline */
 
+.timeline {
+    display: flex;
+}
+
 .timeline__card {
     background:hsl(100, 100%, 100%);
     border-radius: 5px;
@@ -441,6 +445,7 @@ footer i {
     filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
     max-width: 450px;
     margin: 2rem;
+    margin-bottom: 30rem;
 }
 
 .timeline__content-year {
