@@ -352,7 +352,8 @@ button:active {
 }
 
 .links__list-item > a:hover {
-    color:hsl(359, 100%, 76%);
+    background-color: hsl(220, 91%, 34%);
+    color:hsl(100, 100%, 100%);
 }
 
 @media (min-width: 768px) {
