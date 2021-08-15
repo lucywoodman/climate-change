@@ -443,17 +443,17 @@ footer i {
     margin: 2rem;
 }
 
-.timeline__year {
+.timeline__content-year {
     border-bottom: 1px solid hsl(0, 0%, 13%);
     text-align: center;
     padding: 1rem;
 }
 
-.timeline__year p {
+.timeline__content-year p {
     margin: 0;
 }
 
-.timeline__content {
+.timeline__content-text {
     padding: 2rem 3rem;
 }
 
@@ -464,9 +464,9 @@ footer i {
     float: right;
     display: flex;
     flex-direction: column;
-    position: relative;
-    top: -6rem;
-    left: -2rem;
+    position: absolute;
+    top: 86%;
+    right: 3rem;
 }
 
 .timeline__image p {
