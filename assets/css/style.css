@@ -348,6 +348,14 @@ button:active {
     list-style-type: none;
 }
 
+.links__list-item > a {
+    color: hsl(220, 91%, 34%);
+}
+
+.links__list-item > a:hover {
+    color:hsl(359, 100%, 76%);
+}
+
 @media (min-width: 768px) {
     .links__content {
         flex-direction: row;
