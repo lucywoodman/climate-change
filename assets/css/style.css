@@ -436,6 +436,7 @@ footer i {
 
 .timeline {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .timeline__card {
