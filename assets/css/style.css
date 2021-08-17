@@ -526,6 +526,12 @@ footer i {
     max-width: 100%;
 }
 
+.about__content-quote {
+    background: hsl(220, 91%, 34%);
+    color:hsl(100, 100%, 100%);
+    padding: 2rem;
+}
+
 @media (min-width: 768px) {
     .about__content-text img {
         max-width: 400px;
