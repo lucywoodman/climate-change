@@ -444,7 +444,7 @@ footer i {
     border-radius: 5px;
     border: 1px solid hsl(0, 0%, 13%);
     filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
-    margin: 2rem 2rem 30rem 2rem;
+    margin: 2rem 2rem 6rem 2rem;
 }
 
 .timeline__content-year {
@@ -458,7 +458,7 @@ footer i {
 }
 
 .timeline__content-text {
-    padding: 2rem 3rem;
+    padding: 2rem 3rem 0 3rem;
 }
 
 .timeline__image {
@@ -468,9 +468,10 @@ footer i {
     max-width: 200px;
     display: flex;
     flex-direction: column;
-    position: absolute;
+    float: right;
+    position: relative;
+    bottom: 3.5rem;
     right: 2rem;
-    bottom: -28rem;
 }
 
 .timeline__image p {
