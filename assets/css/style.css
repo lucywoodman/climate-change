@@ -437,7 +437,6 @@ footer i {
 .timeline {
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
 }
 
 .timeline__card {
@@ -446,8 +445,9 @@ footer i {
     border: 1px solid hsl(0, 0%, 13%);
     filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
     max-width: 450px;
-    margin: 2rem;
-    margin-bottom: 30rem;
+    margin: 2rem 2rem 30rem 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .timeline__content-year {
@@ -468,12 +468,12 @@ footer i {
     background: hsl(100, 100%, 100%);
     border-radius: 5px;
     border: 1px solid hsl(0, 0%, 13%);
-    float: right;
+    max-width: 200px;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 86%;
-    right: 3rem;
+    position: relative;
+    left: 50%;
+    top: 25%;
 }
 
 .timeline__image p {
