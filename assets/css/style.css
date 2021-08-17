@@ -436,7 +436,7 @@ footer i {
 
 .timeline {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .timeline__card {
@@ -444,10 +444,7 @@ footer i {
     border-radius: 5px;
     border: 1px solid hsl(0, 0%, 13%);
     filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
-    max-width: 450px;
     margin: 2rem 2rem 30rem 2rem;
-    display: flex;
-    flex-direction: column;
 }
 
 .timeline__content-year {
@@ -471,9 +468,9 @@ footer i {
     max-width: 200px;
     display: flex;
     flex-direction: column;
-    position: relative;
-    left: 50%;
-    top: 25%;
+    position: absolute;
+    right: 2rem;
+    bottom: -28rem;
 }
 
 .timeline__image p {
