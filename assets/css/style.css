@@ -39,7 +39,8 @@ body {
     .callout,
     .links,
     .credits,
-    footer {
+    footer,
+    .timeline {
         max-width: 80%;
         margin: 0 auto;
     }
@@ -494,17 +495,16 @@ footer i {
 
 @media (min-width: 768px) {
     .timeline__card-content {
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 2fr auto;
+        align-items: end;
     }
 
     .timeline__card-text {
-        margin: 2rem 0;
+        margin: 2rem 0 3rem 0;
     }
 
     .timeline__card-image {
-        flex-grow: 2;
-        width: 100%;
-        margin: 2rem;
+        margin: 1rem;
     }
 }
