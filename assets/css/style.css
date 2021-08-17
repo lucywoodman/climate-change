@@ -154,6 +154,11 @@ a:active {
                 url('../images/home__hero.jpg') center / cover no-repeat;
 }
 
+.timeline-header__background {
+    background: linear-gradient(hsla(220, 91%, 34%, 0.1), hsla(220, 91%, 34%, 0.5)),
+                url('../images/timeline__hero.jpg') center / cover no-repeat;
+}
+
 .header {
     display: flex;
     flex-direction: column;
