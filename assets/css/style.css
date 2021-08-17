@@ -94,7 +94,8 @@ p {
 }
 
 .byline,
-.button {
+.button,
+cite {
     font-family: 'Fira Code', monospace;
     font-weight: 500;
     font-size: 1.4rem;
@@ -527,9 +528,13 @@ footer i {
 }
 
 .about__content-quote {
+    font-size: 2.2rem;
     background: hsl(220, 91%, 34%);
     color:hsl(100, 100%, 100%);
     padding: 2rem;
+    border: 1px solid hsl(0, 0%, 13%);
+    border-radius: 5px;
+    filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
 }
 
 @media (min-width: 768px) {
