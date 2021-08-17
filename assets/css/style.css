@@ -451,44 +451,60 @@ footer i {
     border-radius: 5px;
     border: 1px solid hsl(0, 0%, 13%);
     filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
-    margin: 2rem 2rem 6rem 2rem;
+    margin: 2rem 1rem 6rem 1rem;
 }
 
-.timeline__content-year {
+.timeline__card-year {
     border-bottom: 1px solid hsl(0, 0%, 13%);
     text-align: center;
     padding: 1rem;
 }
 
-.timeline__content-year p {
+.timeline__card-year p {
     margin: 0;
 }
 
-.timeline__content-text {
+.timeline__card-text {
     padding: 2rem 3rem 0 3rem;
 }
 
-.timeline__image {
+.timeline__card-image {
     background: hsl(100, 100%, 100%);
     border-radius: 5px;
     border: 1px solid hsl(0, 0%, 13%);
+    filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
     max-width: 200px;
     display: flex;
     flex-direction: column;
     float: right;
-    position: relative;
-    bottom: 3.5rem;
-    right: 2rem;
+    margin: -4rem 2rem 2rem 0;
 }
 
-.timeline__image p {
+.timeline__card-image p {
     margin: 0;
     padding: 1rem;
     text-align: center;
 }
 
-.timeline__image img {
+.timeline__card-image img {
     width: 100%;
     filter: grayscale(100%);
     border-top: 1px solid hsl(0, 0%, 13%);
+}
+
+@media (min-width: 768px) {
+    .timeline__card-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .timeline__card-text {
+        margin: 2rem 0;
+    }
+
+    .timeline__card-image {
+        flex-grow: 2;
+        width: 100%;
+        margin: 2rem;
+    }
 }
