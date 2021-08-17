@@ -93,7 +93,7 @@ p {
 }
 
 .byline,
-button {
+.button {
     font-family: 'Fira Code', monospace;
     font-weight: 500;
     font-size: 1.4rem;
@@ -121,7 +121,7 @@ a:active {
     color: hsl(220, 91%, 34%);
 }
 
-button {
+.button {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,12 +135,12 @@ button {
     cursor: pointer;
 }
 
-button i {
+.button i {
     padding-left: .5rem;
 }
 
-button:hover,
-button:active {
+.button:hover,
+.button:active {
     background: hsl(0, 0%, 13%);
     color: hsl(100, 100%, 100%);
     filter: drop-shadow(0 0 0 hsl(0, 0%, 13%));
