@@ -438,3 +438,57 @@ footer i {
     top: 2px;
     right: 1px;
 }
+
+/* Timeline */
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline__card {
+    background:hsl(100, 100%, 100%);
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 13%);
+    filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
+    margin: 2rem 2rem 6rem 2rem;
+}
+
+.timeline__content-year {
+    border-bottom: 1px solid hsl(0, 0%, 13%);
+    text-align: center;
+    padding: 1rem;
+}
+
+.timeline__content-year p {
+    margin: 0;
+}
+
+.timeline__content-text {
+    padding: 2rem 3rem 0 3rem;
+}
+
+.timeline__image {
+    background: hsl(100, 100%, 100%);
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 13%);
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    position: relative;
+    bottom: 3.5rem;
+    right: 2rem;
+}
+
+.timeline__image p {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.timeline__image img {
+    width: 100%;
+    filter: grayscale(100%);
+    border-top: 1px solid hsl(0, 0%, 13%);
+}
