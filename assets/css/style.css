@@ -361,11 +361,13 @@ a:active {
     list-style-type: none;
 }
 
-.links__list-item > a {
+.links__list-item > a,
+.timeline__card-text p > a {
     color: hsl(220, 91%, 34%);
 }
 
-.links__list-item > a:hover {
+.links__list-item > a:hover,
+.timeline__card-text p > a:hover {
     background-color: hsl(220, 91%, 34%);
     color:hsl(100, 100%, 100%);
 }
