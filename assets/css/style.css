@@ -515,6 +515,7 @@ footer i {
 
     .timeline__card-text {
         margin: 2rem 0 3rem 0;
+        align-self: start;
     }
 
     .timeline__card-image {
