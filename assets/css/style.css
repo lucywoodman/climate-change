@@ -465,7 +465,7 @@ footer i {
     border-radius: 5px;
     border: 1px solid hsl(0, 0%, 13%);
     filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
-    margin: 2rem 1rem 6rem 1rem;
+    margin: 2rem 1rem 4rem 1rem;
 }
 
 .timeline__card-year {
