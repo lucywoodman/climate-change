@@ -296,6 +296,7 @@ a:active {
     }
 
     .main__content div:nth-child(2) {
+        display: flex;
         grid-column: 3/4;
         grid-row: 2/3;
     }
