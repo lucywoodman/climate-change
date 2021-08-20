@@ -535,7 +535,14 @@ footer i {
 
 /* About page */
 .about__content-image img {
-    max-width: 350px;
+    max-width: 90%;
+    padding: 2rem;
+}
+
+.about__content-image {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 6rem;
 }
 
 .about__content-quote {
@@ -549,7 +556,17 @@ footer i {
     filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
 }
 
+@media (min-width: 768px) {
+    .about__content-image {
+        flex-direction: row;
+    }
+}
+
 @media (min-width: 1024px) {
+    .about__content-image {
+        flex-direction: column;
+    }
+
     .about__content-image img {
         max-width: 350px;
     }
@@ -557,7 +574,7 @@ footer i {
     .about__content {
         display: grid;
         grid-template-columns: 3fr 2fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         padding: 4rem 0 10rem 0;
     }
     
