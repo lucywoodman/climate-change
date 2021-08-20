@@ -509,6 +509,10 @@ footer i {
 }
 
 @media (min-width: 768px) {
+    .timeline__card {
+        max-width: 80rem;
+    }
+
     .timeline__card-content {
         display: grid;
         grid-template-columns: 2fr auto;
