@@ -377,6 +377,10 @@ a:active {
         flex-direction: row;
     }
 
+    .links__content > div:first-child {
+        padding-right: 3rem;
+    }
+
     .links__col {
         min-width: 50%;
     }
