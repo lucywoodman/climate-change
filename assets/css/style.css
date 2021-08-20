@@ -485,7 +485,7 @@ footer i {
 }
 
 .timeline__card-text {
-    padding: 2rem 3rem 0 3rem;
+    padding: 4rem 3rem 0 3rem;
 }
 
 .timeline__card-image {
@@ -497,7 +497,7 @@ footer i {
     display: flex;
     flex-direction: column;
     float: right;
-    margin: -4rem 2rem 2rem 0;
+    margin: -3rem 3rem 4rem 0;
 }
 
 .timeline__card-image p {
