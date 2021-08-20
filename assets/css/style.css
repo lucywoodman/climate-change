@@ -535,22 +535,23 @@ footer i {
 
 /* About page */
 .about__content-image img {
-    max-width: 100%;
+    max-width: 350px;
 }
 
 .about__content-quote {
     font-size: 2.2rem;
     background: hsl(220, 91%, 34%);
     color:hsl(100, 100%, 100%);
-    padding: 2rem;
+    padding: 5rem 2rem;
+    text-align: center;
     border: 1px solid hsl(0, 0%, 13%);
     border-radius: 5px;
     filter: drop-shadow(3px 3px 0px hsl(0, 0%, 13%));
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .about__content-image img {
-        max-width: 400px;
+        max-width: 350px;
     }
 
     .about__content {
@@ -564,10 +565,5 @@ footer i {
         grid-column: 1/2;
         grid-row: 1/3;
         padding-right: 8rem;
-    }
-
-    .about__content-quote {
-        text-align: center;
-        padding: 5rem 0rem;
     }
 }
