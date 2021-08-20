@@ -520,7 +520,7 @@ footer i {
     .timeline__card-content {
         display: grid;
         grid-template-columns: 2fr auto;
-        align-items: end;
+        align-items: center;
     }
 
     .timeline__card-text {
@@ -529,7 +529,7 @@ footer i {
     }
 
     .timeline__card-image {
-        margin: 1rem;
+        margin: 3rem;
     }
 }
 
