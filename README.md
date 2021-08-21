@@ -36,6 +36,12 @@ Climatic helps people learn about climate change by providing the most accurate 
 ![Call to action](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/Jrux6QPd/62765f49-66f6-473b-999f-a3f5d86fb525.png?v=629a44bfd4c46436a56a9e095caa78cc)
 
 - **Links section**
+  - Lists for further reading and climate charities.
+  - The further reading list contains external links to authorities on the climate change topic, such as NASA.
+  - The climate charities list contains external links to well known charities taking action to help slow down climate change.
+
+![External links](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/yAuybg7l/34bf4826-3552-4977-8b7a-1696a037bc5d.png?v=e294e986f56cf3538d4fc94cc8ab5ba9)
+
 - **Credits**
 - **Footer**
 - **What's Climate Change page**
