@@ -79,13 +79,23 @@ Climatic helps people learn about climate change by providing the most accurate 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=lucywoodman.github.io%2Fclimatic%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-### Unfixed Bugs
-
 ## Deployment
 
+- The site is deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab, then to the Pages submenu tab.
+  - From the Source section drop-down menu, select Branch: main.
+  - Once the source has been selected, a banner will appear to show that the site has been published and display the link.
+- This repositories link is: https://lucywoodman.github.io/climatic/
 
-## Credits 
+## Credits
 
-### Content 
+### Content
+
+- The main content for the site came from [Wikipedia - Climate change](https://en.wikipedia.org/wiki/Climate_change) and [Wikipedia - History of climate change science](https://en.wikipedia.org/wiki/History_of_climate_change_science).
+- The timeline information came from [UCAR](https://scied.ucar.edu/learning-zone/how-climate-works/history-climate-science-research), with edits to make sure the information is correct and to focus just on the science advancements.
+- The icons used throughout the site are from [Phosphoricons](https://phosphoricons.com).
 
 ### Media
+
+- The photos used as header or background images are from [Unsplash - Annie Spratt](https://unsplash.com/@anniespratt).
+- Additional photos/images used as supporting images are from [Unsplash](https://unsplash.com/collections/Y9a6e354pAw/climatic) or [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page).
