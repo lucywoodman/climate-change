@@ -28,7 +28,13 @@ Climatic helps people learn about climate change by providing the most accurate 
 
 ![Supporting image](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/lluoYex0/15d26f62-5f81-4f08-8170-a2bcad3d9ef9.png?v=6b10bc69cb9ca6e2b034ab60850bf784)
 
-- **Learn more CTA**
+- **Learn more call to action**
+  - Background image to catch the eye.
+  - Snippet of further information on what climate change is.
+  - Button to the "About" page to read more.
+
+![Call to action](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/Jrux6QPd/62765f49-66f6-473b-999f-a3f5d86fb525.png?v=629a44bfd4c46436a56a9e095caa78cc)
+
 - **Links section**
 - **Credits**
 - **Footer**
