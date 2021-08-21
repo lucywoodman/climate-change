@@ -67,6 +67,9 @@ Climatic helps people learn about climate change by providing the most accurate 
 
 ### Features Left to Implement
 
+- **Timeline navigation**
+  - A way to jump around the years in the timeline quickly and remove the need to scroll.
+
 ## Testing 
 
 ### Validator Testing 
