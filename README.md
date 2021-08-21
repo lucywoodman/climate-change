@@ -20,6 +20,9 @@ Climatic helps people learn about climate change by providing the most accurate 
 - **Header images**
   - Photo with text overlay so users can see why they are on that particular page.
   - Stunning, high quality photography (hat tip to Annie Spratt ♥️) to capture the eye and grab attention.
+
+![Header image](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/GGupReOy/b87b3a80-3845-46db-a660-dfa996d647d6.png?v=6da3bf8c7c3585740aa3645866948795)
+
 - **Supporting images**
 - **Learn more CTA**
 - **Links section**
