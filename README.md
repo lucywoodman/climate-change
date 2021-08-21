@@ -50,8 +50,15 @@ Climatic helps people learn about climate change by providing the most accurate 
 
 ![Footer](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/d5uREQBL/1011903d-04c3-4f84-9e6d-ff3fd7810440.png?v=be79c8b926855434ee32356bc4fb66d8)
 
-- **What's Climate Change page**
 - **Timeline page**
+  - Individual cards for each scientific advancement throughout history for climate change science.
+  - Supporting images for each card, in greyscale to help even out the differences in image styles (some are illustrations, others are photos, for example).
+  - External links to additional reading on cards where relevant.
+
+![Timeline card](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/eDuRBb2Z/f032339e-317a-4068-a899-bb591f459959.png?v=ec95fbaefd91cc09a71aec2b98ecfd0d)
+
+- **About page**
+  - 
 
 ### Features Left to Implement
 
