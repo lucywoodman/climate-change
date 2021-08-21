@@ -80,14 +80,6 @@ p {
     letter-spacing: -1px;
 }
 
-.dropcap {
-    float: left;
-    font-size: 6.8rem;
-    line-height: 5.5rem;
-    padding: 0.4rem 0.5rem 0 0.3rem;
-    font-weight: 800;
-}
-
 .bold {
     font-weight: 800;
     letter-spacing: 0;
