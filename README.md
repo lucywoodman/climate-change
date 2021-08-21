@@ -58,7 +58,12 @@ Climatic helps people learn about climate change by providing the most accurate 
 ![Timeline card](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/eDuRBb2Z/f032339e-317a-4068-a899-bb591f459959.png?v=ec95fbaefd91cc09a71aec2b98ecfd0d)
 
 - **About page**
-  - 
+  - More detailed information about what climate change is and what the main contributors are, i.e. humans.
+  - Supporting images (graphs) showing the temperature increase over the years.
+  - A recent quote from the BBC news confirming that "...humans are warming the planet".
+  - This is followed by the same links section from the homepage, in the hope that readers will feel moved to learn more or take action to help.
+
+![About page content](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/6quYeA9X/ee5c9246-ad35-44c0-ba32-82dcde2364e9.png?v=f0c383b856db13d1b1bf5af8986b46af)
 
 ### Features Left to Implement
 
