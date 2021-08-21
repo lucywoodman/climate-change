@@ -3,10 +3,9 @@
 Climatic helps people learn about climate change by providing the most accurate online content so people can learn quickly and easily.
 
 ![Mockup](assets/images/mockup__climatic.png)
+<p>&nbsp;</p>
 
 ## Features 
-
-### Existing features
 
 - **Responsive**
   - Mobile-first design and development process, to ensure the site is fully responsive and accessible from any device.
@@ -18,17 +17,20 @@ Climatic helps people learn about climate change by providing the most accurate 
   - This allows users to easily navigate between pages on all devices without having to use the browser's "back" button.
 
 ![Navigation](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/Jrux6ZKd/b15bd387-59e4-497d-8fdb-75b16fddd10a.png?v=443e7115012d4784e8b8ce4ad711fdcf)
+<p>&nbsp;</p>
 
 - **Header images**
   - Photo with text overlay so users can see why they're on that page.
   - Stunning, high quality photography (hat tip to Annie Spratt ♥️) to catch the eye and grab attention.
 
 ![Header image](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/GGupReOy/b87b3a80-3845-46db-a660-dfa996d647d6.png?v=6da3bf8c7c3585740aa3645866948795)
+<p>&nbsp;</p>
 
 - **Supporting images**
   - Related images that support the main content with brand colour overlays.
 
 ![Supporting image](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/lluoYex0/15d26f62-5f81-4f08-8170-a2bcad3d9ef9.png?v=6b10bc69cb9ca6e2b034ab60850bf784)
+<p>&nbsp;</p>
 
 - **Learn more call to action**
   - Background image that draws attention.
@@ -36,6 +38,7 @@ Climatic helps people learn about climate change by providing the most accurate 
   - Button to the "About" page to read more.
 
 ![Call to action](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/Jrux6QPd/62765f49-66f6-473b-999f-a3f5d86fb525.png?v=629a44bfd4c46436a56a9e095caa78cc)
+<p>&nbsp;</p>
 
 - **Links section**
   - Lists for further reading and climate charities, to encourage readers to learn more or take action.
@@ -43,6 +46,7 @@ Climatic helps people learn about climate change by providing the most accurate 
   - The list of climate charities contains external links to well known charities working to slow climate change.
 
 ![External links](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/yAuybg7l/34bf4826-3552-4977-8b7a-1696a037bc5d.png?v=e294e986f56cf3538d4fc94cc8ab5ba9)
+<p>&nbsp;</p>
 
 - **Footer section**
   - Identical across all pages.
@@ -51,6 +55,7 @@ Climatic helps people learn about climate change by providing the most accurate 
   - Footnote to indicate who created the site - i.e. me :)
 
 ![Footer](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/d5uREQBL/1011903d-04c3-4f84-9e6d-ff3fd7810440.png?v=be79c8b926855434ee32356bc4fb66d8)
+<p>&nbsp;</p>
 
 - **Timeline page**
   - Individual cards for each scientific advance in the history of climate science.
@@ -58,6 +63,7 @@ Climatic helps people learn about climate change by providing the most accurate 
   - External links to additional reading on the cards where relevant.
 
 ![Timeline card](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/eDuRBb2Z/f032339e-317a-4068-a899-bb591f459959.png?v=ec95fbaefd91cc09a71aec2b98ecfd0d)
+<p>&nbsp;</p>
 
 - **About page**
   - More detailed information on what climate change is and what the main contributors are, i.e. humans.
@@ -66,11 +72,7 @@ Climatic helps people learn about climate change by providing the most accurate 
   - Then followed by the same collection of links as on the homepage, in the hope that readers will feel moved to learn more or do something to help.
 
 ![About page content](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/6quYeA9X/ee5c9246-ad35-44c0-ba32-82dcde2364e9.png?v=f0c383b856db13d1b1bf5af8986b46af)
-
-### Features left to implement
-
-- **Timeline navigation**
-  - A way to jump around the years in the timeline quickly and remove the need to scroll.
+<p>&nbsp;</p>
 
 ## Testing 
 
@@ -84,6 +86,7 @@ Climatic helps people learn about climate change by providing the most accurate 
   - Score of 100 for accessibility via Google's Lighthouse.
 
 ![Lighthouse score](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/Wnu0J5QJ/fee95232-b3d3-4c96-9bd5-8b75241ad426.png?v=856cc5b5e812f75867de57f640fa485c)
+<p>&nbsp;</p>
 
 ## Deployment
 
