@@ -95,6 +95,7 @@ Climatic helps people learn about climate change by providing the most accurate 
   - Select Branch: main from the Source drop-down menu.
   - Once the source is selected, a banner will appear indicating that the site has been published and display the link.
 - This repositories link is: https://lucywoodman.github.io/climatic/
+<p>&nbsp;</p>
 
 ## Credits
 
