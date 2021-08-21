@@ -24,6 +24,10 @@ Climatic helps people learn about climate change by providing the most accurate 
 ![Header image](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/GGupReOy/b87b3a80-3845-46db-a660-dfa996d647d6.png?v=6da3bf8c7c3585740aa3645866948795)
 
 - **Supporting images**
+  - Related images using brand colour overlays to support the main content.
+
+![Supporting image](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/lluoYex0/15d26f62-5f81-4f08-8170-a2bcad3d9ef9.png?v=6b10bc69cb9ca6e2b034ab60850bf784)
+
 - **Learn more CTA**
 - **Links section**
 - **Credits**
