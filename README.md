@@ -8,15 +8,17 @@ Climatic helps people learn about climate change by providing the most accurate 
 
 ### Existing Features
 
+- **Responsive**
+  - Mobile-first design and development process, to ensure the site is fully responsive and accessible from any device.
+- **Accessiblity**
+  - Design: High contrast colours, large font sizes and whitespace to help readability.
+  - Development: syntactically accurate HTML, alt tags for images to help screen readers.
 - **Navigation**
-  - Identical across all pages, easy to find and use, the fully responsive navigation bar includes links to the homepage (via the logo), "What's Climate Change?" and "Timeline".
+  - Identical across all pages, easy to find and use, the navigation bar includes links to the homepage (via the logo), "Timeline" and "About".
   - This allows users to easily navigate between pages on all devices without having to use the browser's "back" button.
 
 ![Navigation](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/Jrux6ZKd/b15bd387-59e4-497d-8fdb-75b16fddd10a.png?v=443e7115012d4784e8b8ce4ad711fdcf)
 
-- **Typography**
-  - A considerate font in a large font size. For easier reading. 
-  - High contrast for accessibility.
 - **Header images**
   - Photo with text overlay so users can see why they are on that particular page.
   - Stunning, high quality photography (hat tip to Annie Spratt ♥️) to capture the eye and grab attention.
