@@ -265,6 +265,7 @@ a:active {
     filter: grayscale(100%) contrast(150%);
     opacity: 0.5;
     width: 100%;
+    height: auto;
 }
 
 .main__content div:nth-child(2) {
@@ -418,6 +419,7 @@ footer a:active {
 
 .credits img {
     width: 100%;
+    height: auto;
     max-width: 200px;
     border-radius: 5px;
     margin-top: 4rem;
