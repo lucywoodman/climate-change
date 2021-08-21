@@ -42,8 +42,14 @@ Climatic helps people learn about climate change by providing the most accurate 
 
 ![External links](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/yAuybg7l/34bf4826-3552-4977-8b7a-1696a037bc5d.png?v=e294e986f56cf3538d4fc94cc8ab5ba9)
 
-- **Credits**
-- **Footer**
+- **Footer section**
+  - Identical across all pages.
+  - Credits: Lists sources for content, images and icons, with external links for each.
+  - "I declare a climate emergency logo" to show the site's support for climate-emergency.com to empower action.
+  - Footer note to include who the site is made by - i.e. me :)
+
+![Footer](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/d5uREQBL/1011903d-04c3-4f84-9e6d-ff3fd7810440.png?v=be79c8b926855434ee32356bc4fb66d8)
+
 - **What's Climate Change page**
 - **Timeline page**
 
