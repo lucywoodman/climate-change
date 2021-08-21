@@ -80,6 +80,10 @@ Climatic helps people learn about climate change by providing the most accurate 
   - No errors were found when running the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucywoodman.github.io%2Fclimatic%2F)
 - CSS
   - No errors were found when running the official [(Jigsaw) CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=lucywoodman.github.io%2Fclimatic%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- Accessibility
+  - Score of 100 for accessibility via Google's Lighthouse.
+
+![Lighthouse score](https://p-DgFRdw9.t2.n0.cdn.getcloudapp.com/items/Wnu0J5QJ/fee95232-b3d3-4c96-9bd5-8b75241ad426.png?v=856cc5b5e812f75867de57f640fa485c)
 
 ## Deployment
 
