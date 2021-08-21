@@ -2,7 +2,7 @@
 
 Climatic helps people learn about climate change by providing the most accurate online content so people can learn quickly and easily.
 
-[mockup-image]
+![Mockup](assets/images/mockup__climatic.png)
 
 ## Features 
 
