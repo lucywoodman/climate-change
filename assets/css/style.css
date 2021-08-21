@@ -87,6 +87,7 @@ p {
 
 .byline,
 .button,
+figcaption,
 cite {
     font-family: 'Fira Code', monospace;
     font-weight: 500;
@@ -493,7 +494,7 @@ footer i {
     margin: -3rem 3rem 4rem 0;
 }
 
-.timeline__card-image p {
+.timeline__card-figcaption {
     margin: 0;
     padding: 1rem;
     text-align: center;
